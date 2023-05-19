@@ -1,0 +1,109 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "_report_date": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date"
+    },
+    "provider": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "maxLength": 5
+    },
+    "provider_country": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "maxLength": 5
+    },
+    "sku": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "maxLength": 100
+    },
+    "developer": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "maxLength": 4000
+    },
+    "title": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "maxLength": 600
+    },
+    "pre_order_start_date": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date"
+    },
+    "pre_order_end_date": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date"
+    },
+    "ordered": {
+      "type": [
+        "null",
+        "decimal"
+      ]
+    },
+    "canceled": {
+      "type": [
+        "null",
+        "decimal"
+      ]
+    },
+    "cumulative_ordered": {
+      "type": [
+        "null",
+        "decimal"
+      ]
+    },
+    "cumulative_canceled": {
+      "type": [
+        "null",
+        "decimal"
+      ]
+    },
+    "start_date": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date"
+    },
+    "end_date": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date"
+    },
+    "country_code": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "maxLength": 2
+    }
+  }
+}

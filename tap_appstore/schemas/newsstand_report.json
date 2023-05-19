@@ -69,20 +69,6 @@
     "developer_proceeds": {
       "type": "number"
     },
-    "begin_date": {
-      "type": [
-        "null",
-        "string"
-      ],
-      "format": "date"
-    },
-    "end_date": {
-      "type": [
-        "null",
-        "string"
-      ],
-      "format": "date"
-    },
     "customer_currency": {
       "type": [
         "null",
@@ -142,12 +128,29 @@
       ],
       "maxLength": 30
     },
-    "category": {
+    "download_date": {
       "type": [
         "null",
         "string"
       ],
-      "maxLength": 50
+      "format": "date"
+    },
+    "customer_identifier": {
+      "type": "integer"
+    },
+    "report_date": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date"
+    },
+    "sales_return": {
+            "type": [
+        "null",
+        "string"
+      ],
+      "maxLength": 1
     },
     "cmb": {
       "type": [
@@ -155,20 +158,6 @@
         "string"
       ],
       "maxLength": 5
-    },
-    "supported_platforms": {
-      "type": [
-        "null",
-        "string"
-      ],
-      "maxLength": 12
-    },
-    "device": {
-      "type": [
-        "null",
-        "string"
-      ],
-      "maxLength": 10
     },
     "preserved_pricing": {
       "type": [
@@ -191,12 +180,19 @@
       ],
       "maxLength": 30
     },
-    "order_type": {
+    "device": {
       "type": [
         "null",
         "string"
       ],
-      "maxLength": 30
+      "maxLength": 10
+    },
+    "supported_platforms": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "maxLength": 12
     }
   }
 }

@@ -1,0 +1,74 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "_report_date": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date"
+    },
+    "event_date": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date"
+    },
+    "app_name": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "maxLength": 256
+    },
+    "app_apple_id": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "maxLength": 32
+    },
+    "subscription_name": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "maxLength": 256
+    },
+    "subscription_apple_id": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "maxLength": 32
+    },
+    "offer_reference_name": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "maxLength": 256
+    },
+    "offer_code": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "maxLength": 256
+    },
+    "territory": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "maxLength": 2
+    },
+    "redemptions": {
+      "type": "integer"
+    }
+  }
+}
