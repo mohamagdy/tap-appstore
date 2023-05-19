@@ -222,7 +222,7 @@ def query_report(api: Api, catalog_entry):
     stream_schema = catalog_entry["schema"]
 
     # get bookmark from when data will be pulled
-    bookmark = datetime.strptime(get_bookmark(stream_name), "%Y-%m-%dT%H:%M:%SZ").astimezone()
+    bookmark = datetime.strptime(get_bookmark(stream_name), BOOKMARK_DATE_FORMAT).astimezone()
     delta = timedelta(days=1)
     extraction_time = singer.utils.now().astimezone()
     current_date_iterator = bookmark
