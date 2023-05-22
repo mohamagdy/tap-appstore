@@ -3,7 +3,7 @@
 from setuptools import setup
 
 setup(name="tap-appstore",
-      version="0.2.2.a2+airbyte",
+      version="0.2.2.a3+airbyte",
       description="Singer.io tap for extracting data from the App Store Connect API",
       author="JustEdro",
       url="https://github.com/JustEdro",
